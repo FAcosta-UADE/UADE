@@ -183,7 +183,6 @@ document.getElementById('promo3-form').addEventListener('submit', function(e) {
     totalFinal = totalSinDescuento;
   }
   
-  // Mostrar resultados
   document.getElementById('promo3-sin-descuento').textContent = formatearNumero(totalSinDescuento);
   document.getElementById('promo3-descuento').textContent = formatearNumero(descuento);
   document.getElementById('promo3-total-final').textContent = formatearNumero(totalFinal);
@@ -191,3 +190,4 @@ document.getElementById('promo3-form').addEventListener('submit', function(e) {
   
   resultadoDiv.style.display = 'block';
 });
+
